@@ -1,0 +1,56 @@
+.redactor-element{
+    
+    margin: auto;
+}
+.redactor-element:after {
+    content: "";
+    display: block;
+}
+
+.renderer-container {
+    margin: auto;
+    width: 80%;
+    min-width: 400px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.renderer-container:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
+.drawing-canvas:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+.drawing-canvas {    
+    z-index: 3000;
+    margin: auto;
+    width: 80%;
+    min-width: 400px;
+    min-height: 400px;
+    max-height: 100%;
+    image-rendering: pixelated; 
+    display:block;
+}
+
+.renderer-canvas:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+.renderer-canvas { 
+    z-index: 3000;
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    max-height: 100%;
+    min-width: 400px;
+    min-height: 400px;
+    display:block;
+    position: absolute;
+}
+

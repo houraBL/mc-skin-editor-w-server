@@ -1,0 +1,21 @@
+.navbar{
+    background-color:rgb(174, 212, 214);
+    
+}
+
+.text{
+    color: rgb(43, 133, 136);
+}
+
+.btn{
+    color: rgb(255, 255, 255);
+}
+
+
+.btn-primary{
+    background-color:rgb(95, 158, 160);
+}
+
+input{
+    width: 3rem;
+}

@@ -1,0 +1,38 @@
+
+.library h2 {
+    flex-grow: 1;
+    font-size: small;
+    margin: 0.5rem;
+}
+
+
+.tool:hover{
+    cursor:default;
+}
+
+.color-tool:hover .skin-parts:hover{
+    cursor: default;
+}
+  
+.item-list .list-group-item:hover {
+    background-color:rgb(236, 252, 252);
+}
+
+
+.body-part{
+    background-color:rgb(95, 158, 160);
+    border:rgb(168, 212, 212);
+    border-radius: 1px;
+    margin: 2px;
+}
+
+
+.body-part:hover{
+    
+    cursor:pointer;
+}
+
+.limb{
+    width: 10px;
+    height: 24px;
+}

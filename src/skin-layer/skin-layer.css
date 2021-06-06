@@ -1,0 +1,30 @@
+
+.library h2 {
+    flex-grow: 1;
+    font-size: small;
+    margin: 0.5rem;
+}
+
+
+.btn-del{
+    background-color: rgb(212, 168, 168);
+    outline-color: rgb(212, 168, 168);
+}
+
+.btn-hide{
+    background-color: rgb(168, 212, 212);
+    outline-color: rgb(168, 212, 212);
+}
+
+.skin-layer:focus{
+    background-color: rgb(25, 107, 107);
+}
+
+.skin-layer:hover{
+    cursor:pointer;
+    
+}
+
+.chosen{
+    background-color:rgb(236, 252, 252);
+}
